@@ -382,6 +382,36 @@ The repository includes a set of generated reporting assets under the `report as
 
 These assets are useful for validating the structure and narrative of the dashboard before expanding into a wider reporting suite.
 
+## Dashboard screenshots
+
+### Market overview
+
+![Market overview dashboard](jpg%20assets/market%20overview_page.jpg)
+
+This page summarizes the current market state. It highlights key macro-level KPIs such as active cryptocurrency count, market cap, trading volume, and BTC/ETH dominance. It is designed to provide a quick executive-level view of overall market health and momentum at a glance.
+
+### 24h coin analysis
+
+![24h coin analysis dashboard](jpg%20assets/24h%20coin%20analysis.jpg)
+
+This view focuses on short-term coin behavior. It compares current price levels, recent performance, and daily return volatility across the tracked asset set. It is especially useful for identifying which coins are moving sharply within a short time window and which assets are displaying stronger or weaker momentum.
+
+### Daily volatility
+
+![Daily volatility dashboard](jpg%20assets/daily%20volatility.jpg)
+
+This page highlights risk and market stability. By surfacing market-cap-weighted exposure, price movement ranges, and volatility signals, it helps identify which coins may be comparatively more unstable or more resilient in the current market cycle.
+
+### Trending coin analysis
+
+![Trending coin dashboard](jpg%20assets/trending%20coin_page.jpg)
+
+This report surfaces the most actively discussed or attention-heavy assets based on ranking and trending signal data. It provides a user-friendly way to scan the market for momentum and sentiment-driven opportunities, while also showing ranking intensity across the current list of tracked coins.
+
+---
+
+These dashboard views reflect the same underlying data model: raw API ingestion flows into standardized bronze tables, is transformed into SQL-based analytics views, and is then surfaced through Power BI. The end result is a clear, analyst-friendly narrative from raw crypto data to actionable market insight.
+
 ---
 
 ## Data quality and reliability checks
