@@ -145,7 +145,7 @@ The gold layer is the reporting layer used by Power BI. It contains:
 #### Windows PowerShell
 
 ```powershell
-cd "d:\geta jobs\coingecko-pipeline\coingecko-pipeline"
+cd "your dir"
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
@@ -260,7 +260,7 @@ This project is designed to run on a recurring schedule.
 Use the same commands with the Windows Python path:
 
 ```powershell
-cd /d "d:\geta jobs\coingecko-pipeline\coingecko-pipeline"
+cd /d "your dir"
 .\.venv\Scripts\python.exe pipeline.py snapshot
 ```
 
