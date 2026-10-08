@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and runtime artifacts
+*.log
+*.tmp
+
+# Local database / cache artifacts
+*.sqlite3
+
+# Notebook outputs (if used later)
+.ipynb_checkpoints/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
