@@ -458,6 +458,10 @@ The project includes a `.gitignore` to keep local environment artifacts from pol
 
 ## Conclusion
 
-This project demonstrates a practical analytics workflow that moves from raw API data to a structured, reportable data product. It combines data extraction, transformation, modeling, and presentation into a single end-to-end solution that is realistic, maintainable, and suitable for portfolio-style showcasing.
+This project demonstrates a practical analytics workflow that moves from raw API data to a structured, reportable data product. It combines data extraction, transformation, modeling, and presentation into a single end-to-end solution that is realistic, maintainable.
 
 The work reflects core data engineering principles: repeatable ingestion, reliable storage, layered transformation logic, and business-facing analytics design. It is a strong example of how raw market data can be turned into actionable dashboard insight using a clean and scalable architecture.
+
+
+
+CREDIT : https://www.coingecko.com
